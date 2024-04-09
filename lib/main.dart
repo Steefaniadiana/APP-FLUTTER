@@ -1,3 +1,4 @@
+import 'package:app/screens/revelare_screen.dart';
 import 'package:app/theme/app_theme.dart';
 import 'package:flutter/material.dart';
 
@@ -12,11 +13,7 @@ class MyApp extends StatelessWidget {
       title: 'Vertical Videos App',
       debugShowCheckedModeBanner: false,
       theme: AppTheme().getTheme(),
-      home: const Scaffold(
-        body: Center(
-          child: Text('Hello World'),
-        ),
-      ),
+      home: const RevelareScreen()
     );
   }
 }
