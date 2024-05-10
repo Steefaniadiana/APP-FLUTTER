@@ -1,6 +1,6 @@
-import 'package:app/entities/video_post.dart';
-import 'package:app/widgets/full_screen_player.dart';
-import 'package:app/widgets/video_buttons.dart';
+import 'package:app/domain/entities/video_post.dart';
+import 'package:app/presentation/widgets/full_screen_player.dart';
+import 'package:app/presentation/widgets/video_buttons.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
